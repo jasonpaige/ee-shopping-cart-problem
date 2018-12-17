@@ -1,3 +1,3 @@
 package org.acme.shoppingcart
 
-case class Item(sku:Long, name:String, price:Int)
+case class Item(sku:Long, name:String, price:Int, tax:Double)
